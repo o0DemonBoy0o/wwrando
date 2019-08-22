@@ -139,24 +139,6 @@ Windfall Island - Jail - Maze Chest:
   Types: Other Chest
   Paths:
     - Pnezumi/Stage.arc/Chest000
-Windfall Island - Chu Jelly Juice Shop - Red Potion Free Sample:
-  Need: Spoils Bag
-  Original item: Red Potion
-  Types: Spoils Trading
-  Paths:
-    - rels/d_a_npc_ds1.rel@28C7
-Windfall Island - Chu Jelly Juice Shop - Green Potion Free Sample:
-  Need: Can Farm Green Chu Jelly
-  Original item: Green Potion
-  Types: Spoils Trading
-  Paths:
-    - rels/d_a_npc_ds1.rel@28D7
-Windfall Island - Chu Jelly Juice Shop - Blue Potion Free Sample:
-  Need: Can Obtain 15 Blue Chu Jelly
-  Original item: Blue Potion
-  Types: Spoils Trading, Long Sidequest
-  Paths:
-    - rels/d_a_npc_ds1.rel@28DF
 Windfall Island - Chu Jelly Juice Shop - Give 15 Green Chu Jelly:
   Need: Can Farm Green Chu Jelly
   Original item: Green Potion
@@ -348,31 +330,6 @@ Windfall Island - Sam - Decorate the Town:
   Types: Expensive Purchase
   Paths:
     - rels/d_a_npc_people.rel@C54B
-Windfall Island - Kane - Place Shop Guru Statue on Gate: # Too obscure to randomize
-  Need: Rescued Aryll & Delivery Bag
-  Original item: Purple Rupee
-  Types: Long Sidequest, Expensive Purchase
-  Paths:
-    - rels/d_a_npc_people.rel@C21B
-Windfall Island - Kane - Place Postman Statue on Gate: # Too obscure to randomize
-  Need: Rescued Aryll & Delivery Bag
-  Original item: Purple Rupee
-  Types: Long Sidequest, Expensive Purchase
-  Paths:
-    - rels/d_a_npc_people.rel@C21F
-Windfall Island - Kane - Place Six Flags on Gate: # Too obscure to randomize
-  # Pinwheel counts as a flag
-  Need: Rescued Aryll & Delivery Bag
-  Original item: Red Rupee
-  Types: Long Sidequest, Expensive Purchase
-  Paths:
-    - rels/d_a_npc_people.rel@C223
-Windfall Island - Kane - Place Six Idols on Gate: # Too obscure to randomize
-  Need: Rescued Aryll & Delivery Bag
-  Original item: Red Rupee
-  Types: Long Sidequest, Expensive Purchase
-  Paths:
-    - rels/d_a_npc_people.rel@C227
 Windfall Island - Mila - Catch Stealing:
   Need: Rescued Aryll
   Original item: Empty Bottle
@@ -391,24 +348,24 @@ Windfall Island - Battlesquid - Second Prize:
   Types: Battlesquid
   Paths:
     - rels/d_a_npc_kg1.rel@2C29
-Windfall Island - Battlesquid - Prize 3+:
-  Need: Nothing
-  Original item: Purple Rupee
-  Types: No progression
-  Paths:
-    - rels/d_a_npc_kg1.rel@2C2A
+#Windfall Island - Battlesquid - Prize 3+:
+#  Need: Nothing
+#  Original item: Purple Rupee
+#  Types: No progression
+#  Paths:
+#    - rels/d_a_npc_kg1.rel@2C2A
 Windfall Island - Battlesquid - Under 20 Shots Prize:
   Need: Nothing
   Original item: Treasure Chart 23
   Types: Battlesquid
   Paths:
     - rels/d_a_npc_kg1.rel@2C2C
-Windfall Island - Battlesquid - Under 20 Shots Prize 2+:
-  Need: Nothing
-  Original item: Orange Rupee
-  Types: No progression
-  Paths:
-    - rels/d_a_npc_kg1.rel@2C2D
+#Windfall Island - Battlesquid - Under 20 Shots Prize 2+:
+#  Need: Nothing
+#  Original item: Orange Rupee
+#  Types: No progression
+#  Paths:
+#    - rels/d_a_npc_kg1.rel@2C2D
 Windfall Island - Dampa's Piggy Sitting Minigame:
   Need: Rescued Aryll & Spoils Bag & Can Farm Skull Necklaces
   Original item: Purple Rupee
@@ -432,7 +389,7 @@ Windfall Island - Kamo - Get Picture of Full Moon:
   Types: Short Sidequest
   Paths:
     - rels/d_a_npc_people.rel@C55F
-Windfall Island - Minenco:
+Windfall Island - Minenco - Take Picture:
   Need: Deluxe Picto Box
   Original item: Treasure Chart 33
   Types: Short Sidequest
@@ -1760,6 +1717,49 @@ The Great Sea - Ghost Ship:
     - PShip/Stage.arc/Chest002
     - PShip2/Stage.arc/Chest000
     - PShip3/Stage.arc/Chest000
+The Great Sea - Kane - Place Shop Guru Statue on Gate: # Too obscure to randomize
+  Need: Rescued Aryll & Delivery Bag
+  Original item: Purple Rupee
+  Types: Long Sidequest, Expensive Purchase
+  Paths:
+    - rels/d_a_npc_people.rel@C21B
+The Great Sea - Kane - Place Postman Statue on Gate: # Too obscure to randomize
+  Need: Rescued Aryll & Delivery Bag
+  Original item: Purple Rupee
+  Types: Long Sidequest, Expensive Purchase
+  Paths:
+    - rels/d_a_npc_people.rel@C21F
+The Great Sea - Kane - Place Six Flags on Gate: # Too obscure to randomize
+  # Pinwheel counts as a flag
+  Need: Rescued Aryll & Delivery Bag
+  Original item: Red Rupee
+  Types: Long Sidequest, Expensive Purchase
+  Paths:
+    - rels/d_a_npc_people.rel@C223
+The Great Sea - Kane - Place Six Idols on Gate: # Too obscure to randomize
+  Need: Rescued Aryll & Delivery Bag
+  Original item: Red Rupee
+  Types: Long Sidequest, Expensive Purchase
+  Paths:
+    - rels/d_a_npc_people.rel@C227
+The Great Sea - Chu Jelly Juice Shop - Red Potion Free Sample:
+  Need: Spoils Bag
+  Original item: Red Potion
+  Types: Spoils Trading
+  Paths:
+    - rels/d_a_npc_ds1.rel@28C7
+The Great Sea - Chu Jelly Juice Shop - Green Potion Free Sample:
+  Need: Can Farm Green Chu Jelly
+  Original item: Green Potion
+  Types: Spoils Trading
+  Paths:
+    - rels/d_a_npc_ds1.rel@28D7
+The Great Sea - Chu Jelly Juice Shop - Blue Potion Free Sample:
+  Need: Can Obtain 15 Blue Chu Jelly
+  Original item: Blue Potion
+  Types: Spoils Trading, Long Sidequest
+  Paths:
+    - rels/d_a_npc_ds1.rel@28DF
 
 Private Oasis - Chest at Top of Waterfall:
   Need: Hookshot | Can Fly With Deku Leaf Outdoors
@@ -2491,714 +2491,3 @@ Six-Eye Reef - Submarine:
   Types: Submarine
   Paths:
     - Abship/Room1.arc/Chest000
-
-Forsaken Fortress - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 1
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room1.arc/ScalableObject000
-    - sea/Room1.arc/ScalableObject00A
-    - sea/Room1.arc/ScalableObject00B
-    - sea/Room1.arc/ScalableObject00C
-Star Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 2
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room2.arc/ScalableObject00A
-    - sea/Room2.arc/ScalableObject00B
-    - sea/Room2.arc/ScalableObject00C
-    - sea/Room2.arc/ScalableObject00D
-Northern Fairy Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 3
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room3.arc/ScalableObject006
-    - sea/Room3.arc/ScalableObject007
-    - sea/Room3.arc/ScalableObject008
-    - sea/Room3.arc/ScalableObject009
-Gale Isle - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 4
-  Original item: Triforce Shard 2
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room4.arc/ScalableObject007
-    - sea/Room4.arc/ScalableObject008
-    - sea/Room4.arc/ScalableObject009
-    - sea/Room4.arc/ScalableObject00A
-Crescent Moon Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 5
-  Original item: Piece of Heart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room5.arc/ScalableObject006
-    - sea/Room5.arc/ScalableObject007
-    - sea/Room5.arc/ScalableObject008
-    - sea/Room5.arc/ScalableObject009
-Seven-Star Isles - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 6 & Bombs
-  # Bombs are not necessary, but it's tricky to salvage this treasure with two stationary gunboats shooting at you, so being able to destroy them makes this much easier.
-  Original item: Triforce Shard 7
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room6.arc/ScalableObject008
-    - sea/Room6.arc/ScalableObject009
-    - sea/Room6.arc/ScalableObject00A
-    - sea/Room6.arc/ScalableObject00B
-Overlook Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 7
-  Original item: Secret Cave Chart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room7.arc/ScalableObject006
-    - sea/Room7.arc/ScalableObject007
-    - sea/Room7.arc/ScalableObject008
-    - sea/Room7.arc/ScalableObject009
-Four-Eye Reef - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 8 & Bombs
-  # The cannons and gunboats can get in the way when trying to salvage this treasure, so being able to destroy them makes this easier.
-  Original item: Great Fairy Chart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room8.arc/ScalableObject00E
-    - sea/Room8.arc/ScalableObject00F
-    - sea/Room8.arc/ScalableObject010
-    - sea/Room8.arc/ScalableObject011
-Mother and Child Isles - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 9
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room9.arc/ScalableObject006
-    - sea/Room9.arc/ScalableObject007
-    - sea/Room9.arc/ScalableObject008
-    - sea/Room9.arc/ScalableObject009
-Spectacle Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 10
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room10.arc/ScalableObject006
-    - sea/Room10.arc/ScalableObject007
-    - sea/Room10.arc/ScalableObject008
-    - sea/Room10.arc/ScalableObject009
-Windfall Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 11
-  Original item: Green Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room11.arc/ScalableObject022
-    - sea/Room11.arc/ScalableObject023
-    - sea/Room11.arc/ScalableObject024
-    - sea/Room11.arc/ScalableObject025
-Pawprint Isle - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 12
-  Original item: Piece of Heart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room12.arc/ScalableObject006
-    - sea/Room12.arc/ScalableObject007
-    - sea/Room12.arc/ScalableObject008
-    - sea/Room12.arc/ScalableObject009
-Dragon Roost Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 13
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room13.arc/ScalableObject008
-    - sea/Room13.arc/ScalableObject009
-    - sea/Room13.arc/ScalableObject00A
-    - sea/Room13.arc/ScalableObject00B
-Flight Control Platform - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 14
-  Original item: Island Hearts Chart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room14.arc/ScalableObject008
-    - sea/Room14.arc/ScalableObject009
-    - sea/Room14.arc/ScalableObject00A
-    - sea/Room14.arc/ScalableObject00B
-Western Fairy Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 15
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room15.arc/ScalableObject007
-    - sea/Room15.arc/ScalableObject008
-    - sea/Room15.arc/ScalableObject009
-    - sea/Room15.arc/ScalableObject00A
-Rock Spire Isle - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 16
-  Original item: Piece of Heart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room16.arc/ScalableObject008
-    - sea/Room16.arc/ScalableObject009
-    - sea/Room16.arc/ScalableObject00A
-    - sea/Room16.arc/ScalableObject00B
-Tingle Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 17
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room17.arc/ScalableObject00B
-    - sea/Room17.arc/ScalableObject00C
-    - sea/Room17.arc/ScalableObject00D
-    - sea/Room17.arc/ScalableObject00E
-Northern Triangle Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 18
-  Original item: Octo Chart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room18.arc/ScalableObject006
-    - sea/Room18.arc/ScalableObject007
-    - sea/Room18.arc/ScalableObject008
-    - sea/Room18.arc/ScalableObject009
-Eastern Fairy Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 19
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room19.arc/ScalableObject006
-    - sea/Room19.arc/ScalableObject007
-    - sea/Room19.arc/ScalableObject008
-    - sea/Room19.arc/ScalableObject009
-Fire Mountain - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 20
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room20.arc/ScalableObject00B
-    - sea/Room20.arc/ScalableObject00C
-    - sea/Room20.arc/ScalableObject00D
-    - sea/Room20.arc/ScalableObject00E
-Star Belt Archipelago - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 21
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room21.arc/ScalableObject009
-    - sea/Room21.arc/ScalableObject00A
-    - sea/Room21.arc/ScalableObject00B
-    - sea/Room21.arc/ScalableObject00C
-Three-Eye Reef - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 22 & Bombs
-  # The cannons and gunboats can get in the way when trying to salvage this treasure, so being able to destroy them makes this easier.
-  Original item: Piece of Heart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room22.arc/ScalableObject007
-    - sea/Room22.arc/ScalableObject008
-    - sea/Room22.arc/ScalableObject009
-    - sea/Room22.arc/ScalableObject00A
-Greatfish Isle - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 23
-  Original item: Triforce Shard 1
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room23.arc/ScalableObject005
-    - sea/Room23.arc/ScalableObject006
-    - sea/Room23.arc/ScalableObject007
-    - sea/Room23.arc/ScalableObject008
-Cyclops Reef - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 24 & Bombs
-  # The cannons and gunboats can get in the way when trying to salvage this treasure, so being able to destroy them makes this easier.
-  Original item: Light Ring Chart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room24.arc/ScalableObject00C
-    - sea/Room24.arc/ScalableObject00D
-    - sea/Room24.arc/ScalableObject00E
-    - sea/Room24.arc/ScalableObject00F
-Six-Eye Reef - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 25 & Bombs
-  # The cannons and gunboats can get in the way when trying to salvage this treasure, so being able to destroy them makes this easier.
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room25.arc/ScalableObject007
-    - sea/Room25.arc/ScalableObject008
-    - sea/Room25.arc/ScalableObject009
-    - sea/Room25.arc/ScalableObject00A
-Tower of the Gods - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 26
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room26.arc/ScalableObject006
-    - sea/Room26.arc/ScalableObject007
-    - sea/Room26.arc/ScalableObject008
-    - sea/Room26.arc/ScalableObject009
-Eastern Triangle Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 27
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room27.arc/ScalableObject006
-    - sea/Room27.arc/ScalableObject007
-    - sea/Room27.arc/ScalableObject008
-    - sea/Room27.arc/ScalableObject009
-Thorned Fairy Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 28
-  Original item: Piece of Heart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room28.arc/ScalableObject006
-    - sea/Room28.arc/ScalableObject007
-    - sea/Room28.arc/ScalableObject008
-    - sea/Room28.arc/ScalableObject009
-Needle Rock Isle - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 29
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room29.arc/ScalableObject006
-    - sea/Room29.arc/ScalableObject007
-    - sea/Room29.arc/ScalableObject008
-    - sea/Room29.arc/ScalableObject009
-Islet of Steel - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 30
-  # Note: There are several gunboats here near the treasure, but they rarely seem to actually hit you and get in your way. So bombs are not currently a requirement here.
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room30.arc/ScalableObject007
-    - sea/Room30.arc/ScalableObject008
-    - sea/Room30.arc/ScalableObject009
-    - sea/Room30.arc/ScalableObject00A
-Stone Watcher Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 31
-  # Note: There are some gunboats here guarding the treasure, but they never seem to actually hit you when you're trying to salvage it. So bombs are not currently a requirement here.
-  Original item: Triforce Shard 3
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room31.arc/ScalableObject006
-    - sea/Room31.arc/ScalableObject007
-    - sea/Room31.arc/ScalableObject008
-    - sea/Room31.arc/ScalableObject009
-Southern Triangle Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 32 & Can Defeat Seahats
-  # Killing the seahats isn't necessary, but makes it much easier.
-  Original item: Triforce Shard 6
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room32.arc/ScalableObject006
-    - sea/Room32.arc/ScalableObject007
-    - sea/Room32.arc/ScalableObject008
-    - sea/Room32.arc/ScalableObject009
-Private Oasis - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 33
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room33.arc/ScalableObject008
-    - sea/Room33.arc/ScalableObject009
-    - sea/Room33.arc/ScalableObject00A
-    - sea/Room33.arc/ScalableObject00B
-Bomb Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 34
-  Original item: Piece of Heart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room34.arc/ScalableObject006
-    - sea/Room34.arc/ScalableObject007
-    - sea/Room34.arc/ScalableObject008
-    - sea/Room34.arc/ScalableObject009
-Bird's Peak Rock - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 35
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room35.arc/ScalableObject007
-    - sea/Room35.arc/ScalableObject008
-    - sea/Room35.arc/ScalableObject009
-    - sea/Room35.arc/ScalableObject00A
-Diamond Steppe Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 36
-  Original item: Piece of Heart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room36.arc/ScalableObject009
-    - sea/Room36.arc/ScalableObject00A
-    - sea/Room36.arc/ScalableObject00B
-    - sea/Room36.arc/ScalableObject00C
-Five-Eye Reef - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 37 & Can Destroy Cannons
-  # The cannons can get in the way when trying to salvage this treasure, so being able to destroy them makes this easier.
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room37.arc/ScalableObject007
-    - sea/Room37.arc/ScalableObject008
-    - sea/Room37.arc/ScalableObject009
-    - sea/Room37.arc/ScalableObject00A
-Shark Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 38
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room38.arc/ScalableObject00D
-    - sea/Room38.arc/ScalableObject00E
-    - sea/Room38.arc/ScalableObject00F
-    - sea/Room38.arc/ScalableObject010
-Southern Fairy Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 39
-  Original item: Piece of Heart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room39.arc/ScalableObject006
-    - sea/Room39.arc/ScalableObject007
-    - sea/Room39.arc/ScalableObject008
-    - sea/Room39.arc/ScalableObject009
-Ice Ring Isle - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 40
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room40.arc/ScalableObject00A
-    - sea/Room40.arc/ScalableObject00B
-    - sea/Room40.arc/ScalableObject00C
-    - sea/Room40.arc/ScalableObject00D
-Forest Haven - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 41
-  Original item: Piece of Heart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room41.arc/ScalableObject014
-    - sea/Room41.arc/ScalableObject015
-    - sea/Room41.arc/ScalableObject016
-    - sea/Room41.arc/ScalableObject017
-Cliff Plateau Isles - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 42
-  Original item: Triforce Shard 5
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room42.arc/ScalableObject006
-    - sea/Room42.arc/ScalableObject007
-    - sea/Room42.arc/ScalableObject008
-    - sea/Room42.arc/ScalableObject009
-Horseshoe Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 43
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room43.arc/ScalableObject007
-    - sea/Room43.arc/ScalableObject008
-    - sea/Room43.arc/ScalableObject009
-    - sea/Room43.arc/ScalableObject00A
-Outset Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 44
-  Original item: Triforce Shard 4
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room44.arc/ScalableObject013
-    - sea/Room44.arc/ScalableObject014
-    - sea/Room44.arc/ScalableObject015
-    - sea/Room44.arc/ScalableObject016
-Headstone Island - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 45
-  Original item: Silver Rupee
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room45.arc/ScalableObject026
-    - sea/Room45.arc/ScalableObject027
-    - sea/Room45.arc/ScalableObject028
-    - sea/Room45.arc/ScalableObject029
-Two-Eye Reef - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 46 & Bombs
-  # The cannons and gunboats can get in the way when trying to salvage this treasure, so being able to destroy them makes this easier.
-  Original item: Triforce Shard 8
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room46.arc/ScalableObject008
-    - sea/Room46.arc/ScalableObject009
-    - sea/Room46.arc/ScalableObject00A
-    - sea/Room46.arc/ScalableObject00B
-Angular Isles - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 47
-  Original item: Piece of Heart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room47.arc/ScalableObject006
-    - sea/Room47.arc/ScalableObject007
-    - sea/Room47.arc/ScalableObject008
-    - sea/Room47.arc/ScalableObject009
-Boating Course - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 48
-  Original item: Sea Hearts Chart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room48.arc/ScalableObject006
-    - sea/Room48.arc/ScalableObject007
-    - sea/Room48.arc/ScalableObject008
-    - sea/Room48.arc/ScalableObject009
-Five-Star Isles - Sunken Treasure:
-  Need: Grappling Hook & Chart for Island 49
-  Original item: Piece of Heart
-  Types: Sunken Treasure
-  Paths:
-    - sea/Room49.arc/ScalableObject006
-    - sea/Room49.arc/ScalableObject007
-    - sea/Room49.arc/ScalableObject008
-    - sea/Room49.arc/ScalableObject009
-
-#MAYBE NOT USELESS
-#Outset Island - Grandma Cured: # randomizing this might mess getting the soup later on too
-#  Need: Empty Bottle & Can Get Fairies
-#  Original item: Elixir Soup
-#  Paths:
-#    - LinkRM/Stage.arc/Event003:Ba1_Get_Itm/Actor002/Action001
-#Windfall Island - Mrs. Marie - Give 1 or 2 Joy Pendants at Once:
-#  Need: 
-#  Original item: Red Rupee
-#  Paths:
-#    - rels/d_a_npc_ho.rel@0C4B
-#Windfall Island - Mrs. Marie - Give 3 or 4 Joy Pendants at Once:
-#  Need: 
-#  Original item: Purple Rupee
-#  Paths:
-#    - rels/d_a_npc_ho.rel@0C5F
-#Windfall Island - Mrs. Marie - Give 5+ Joy Pendants at Once:
-#  Need: 
-#  Original item: Orange Rupee
-#  Paths:
-#    - rels/d_a_npc_ho.rel@0C6B
-#Earth Temple - Behind Curtain Next to Map Chest:
-#  Need:
-#    Can Access Earth Temple
-#    & Can Play Command Melody
-#    & Fire Arrows
-#    & Boomerang & TODO # Does boomerang work for items here other than rupees and spoils?
-#  Original item: Joy Pendant
-#  Paths:
-#    - M_Dai/Room2.arc/Actor010
-#Earth Temple - Behind Curtains Next to Hammer Button:
-#  Need:
-#    Can Access Earth Temple
-#    & Can Play Command Melody
-#    & Can Aim Mirror Shield
-#    & Can Play Earth God's Lyric
-#    & Boomerang & TODO # Does boomerang work for items here other than rupees and spoils?
-#  Original item: Joy Pendant
-#  Paths:
-#    - M_Dai/Room13.arc/Actor01A
-#Tingle Island - Ankle - Reward for 2 Tingle Statues:
-#  Need: 
-#  Original item: 100 Rupees, reward for finding 2 Tingle Statues
-#  Paths:
-#    - rels/d_a_npc_tc.rel@6187
-#Tingle Island - Ankle - Reward for 3 Tingle Statues:
-#  Need: 
-#  Original item: 150 Rupees, reward for finding 3 Tingle Statues
-#  Paths:
-#    - rels/d_a_npc_tc.rel@618F
-#Tingle Island - Ankle - Reward for 4 Tingle Statues:
-#  Need: 
-#  Original item: 200 Rupees, reward for finding 4 Tingle Statues
-#  Paths:
-#    - rels/d_a_npc_tc.rel@6197
-#Tingle Island - Ankle - Reward for 5 Tingle Statues:
-#  Need: 
-#  Original item: 250 Rupees, reward for finding 5 Tingle Statues
-#  Paths:
-#    - rels/d_a_npc_tc.rel@619F
-
-#USELESS
-#Outset Island - Aryll's Birthday Gift:
-#  Need: 
-#  Original item: Telescope
-#  Paths:
-#    - sea/Stage.arc/Event085:get_telescope/Actor002/Action001
-#Outset Island - Bring a Pig to Rose:
-#  Need: 
-#  Original item: Red Rupee
-#  Paths:
-#    - sea/Stage.arc/Event0B1:Get_Rupee/Actor002/Action000
-#Outset Island - Orca - Tutorial:
-#  Need: 
-#  Original item: Hero's Sword
-#  Paths:
-#    - rels/d_a_npc_ji1.rel@4253
-#Outset Island - Shield from Grandma:
-#  Need: 
-#  Original item: Hero's Shield
-#  Paths:
-#    - main.dol@358D3B
-#Pirate Ship - First Visit:
-#  Need: 
-#  Original item: Spoils Bag
-#  Paths:
-#    - Asoko/Stage.arc/Layer0/Chest000
-#Windfall Island - Lenzo's House - Legendary Pictograph:
-#  Need: 
-#  Original item: Legendary Pictograph
-#  Paths:
-#    - rels/d_a_npc_photo.rel@3B8B
-#Windfall Island - Maggie's Father - Give More than 20 Skull Necklaces: # Doesn't work
-#  Need: Rescued Aryll & Spoils Bag & Can Farm Skull Necklaces
-#  Original item: Red Rupee
-#  Paths:
-#    - rels/d_a_npc_kf1.rel@17AF
-#Windfall Island - Maggie's Father - Give More than 20 Skull Necklaces 2: # Doesn't work
-#  Need: Rescued Aryll & Spoils Bag & Can Farm Skull Necklaces
-#  Original item: Red Rupee
-#  Paths:
-#    - rels/d_a_npc_kf1.rel@1A23
-#Windfall Island - Zunari - Sail:
-#  Need: 
-#  Original item: Boat's Sail
-#  Paths:
-#    - rels/d_a_npc_rsh1.rel@30FB
-#Windfall Island - Zunari - Goron Trading Starter: # Doesn't randomize correctly, he just keeps giving you this item repeatedly
-#  Need: Rescued Aryll & Delivery Bag
-#  Original item: Town Flower
-#  Paths:
-#    - rels/d_a_npc_rsh1.rel@30DF
-#Windfall Island - Dampa's Piggy Sitting Minigame (Unused):
-#  Need: 
-#  Original item: Red Rupee
-#  Paths:
-#    - rels/d_a_npc_people.rel@5BC3
-#Dragon Roost Island - Gift from King of Red Lions:
-#  Need: 
-#  Original item: Wind Waker
-#  Paths:
-#    - sea/Stage.arc/Event025:TACT_TEARCH3/Actor000/Action002
-#Dragon Roost Island - Quill:
-#  Need: 
-#  Original item: Delivery Bag
-#  Paths:
-#    - main.dol@358D3A
-#Dragon Roost Island - Rito Aerie - Letter for Komali:
-#  Need: Nothing
-#  Original item: Father's Letter
-#  Paths:
-#    - rels/d_a_npc_md.rel@AF1B
-#    - rels/d_a_npc_md.rel@AF47
-#Dragon Roost Island - Entrance to Cavern - Medli's Gift:
-#  Need: Delivery Bag & Father's Letter # Need to deliver this to Komali before Medli will appear
-#  Original item: Empty Bottle
-#  Paths:
-#    - rels/d_a_npc_md.rel@AF3F
-#Dragon Roost Island - Komali:
-#  Need: 
-#  Original item: Din's Pearl
-#  Paths:
-#    - main.dol@358D37
-#Forest Haven - Farore's Pearl:
-#  Need: 
-#  Original item: Farore's Pearl
-#  Paths:
-#    - main.dol@358D38
-#Tower of the Gods - Gohdan - Arrow Refill:
-#  Need: 
-#  Original item: 10 Arrows (Pickup)
-#  Paths:
-#    - rels/d_a_bst.rel@5CA7
-#Tower of the Gods - Gohdan - Bomb Refill:
-#  Need: 
-#  Original item: 5 Bombs (Pickup)
-#  Paths:
-#    - rels/d_a_bst.rel@5CD3
-#Forsaken Fortress - Dropped Sword:
-#  Need: 
-#  Original item: Recovered Hero's Sword
-#  Paths:
-#    - MajyuE/Room0.arc/Actor016
-#Earth Temple - Entrance:
-#  Need: 
-#  Original item: Earth God's Lyric
-#  Paths:
-#    - Edaichi/Stage.arc/Event043:MKNJD_D_LESSON/Actor003/Action006
-#Earth Temple - Duplicate Earth God's Lyric?:
-#  Need: 
-#  Original item: Earth God's Lyric
-#  Paths:
-#    - M_Dai/Stage.arc/Event050:MKNJD_D_LESSON/Actor003/Action006
-#Earth Temple - Master Sword Upgrade:
-#  Need: 
-#  Original item: Master Sword (Half Power)
-#  Paths:
-#    - main.dol@358D35
-#Wind Temple - Entrance:
-#  Need: 
-#  Original item: Wind God's Aria
-#  Paths:
-#    - Ekaze/Stage.arc/Event042:MKNJD_K_LESSON/Actor003/Action006
-#Wind Temple - Duplicate Wind God's Aria?:
-#  Need: 
-#  Original item: Wind God's Aria
-#  Paths:
-#    - kaze/Stage.arc/Event04F:MKNJD_K_LESSON/Actor003/Action006
-#Wind Temple - Master Sword Upgrade:
-#  Need: 
-#  Original item: Master Sword (Full Power)
-#  Paths:
-#    - main.dol@358D36
-#The Great Sea - Old Man Hoho 1 (Unused):
-#  Need: 
-#  Original item: Piece of Heart
-#  Paths:
-#    - rels/d_a_npc_ah.rel@174F
-#The Great Sea - Old Man Hoho 2 (Unused):
-#  Need: 
-#  Original item: Purple Rupee
-#  Paths:
-#    - rels/d_a_npc_ah.rel@1773
-#The Great Sea - Fishman (Unused):
-#  Need: 
-#  Original item: Silver Rupee
-#  Paths:
-#    - sea/Stage.arc/Event0D2:SO_GET_RUPEE/Actor002/Action000
-#Nintendo Gallery - Carlov 1 (Unused):
-#  Need: 
-#  Original item: Piece of Heart
-#  Paths:
-#    - rels/d_a_npc_mt.rel@18AB
-#Nintendo Gallery - Carlov 2 (Unused):
-#  Need: 
-#  Original item: Purple Rupee
-#  Paths:
-#    - rels/d_a_npc_mt.rel@18CF
-#Tingle Island - Tingle - Triforce Chart 1 Deciphered:
-#  Need: 
-#  Original item: Triforce Chart 1 got deciphered
-#  Paths:
-#    - rels/d_a_npc_tc.rel@61D7
-#Tingle Island - Tingle - Triforce Chart 2 Deciphered:
-#  Need: 
-#  Original item: Triforce Chart 2 got deciphered
-#  Paths:
-#    - rels/d_a_npc_tc.rel@61DF
-#Tingle Island - Tingle - Triforce Chart 3 Deciphered:
-#  Need: 
-#  Original item: Triforce Chart 3 got deciphered
-#  Paths:
-#    - rels/d_a_npc_tc.rel@61E7
-#Tingle Island - Tingle - Triforce Chart 4 Deciphered:
-#  Need: 
-#  Original item: Triforce Chart 4 got deciphered
-#  Paths:
-#    - rels/d_a_npc_tc.rel@61EF
-#Tingle Island - Tingle - Triforce Chart 5 Deciphered:
-#  Need: 
-#  Original item: Triforce Chart 5 got deciphered
-#  Paths:
-#    - rels/d_a_npc_tc.rel@61F7
-#Tingle Island - Tingle - Triforce Chart 6 Deciphered:
-#  Need: 
-#  Original item: Triforce Chart 6 got deciphered
-#  Paths:
-#    - rels/d_a_npc_tc.rel@61FF
-#Tingle Island - Tingle - Triforce Chart 7 Deciphered:
-#  Need: 
-#  Original item: Triforce Chart 7 got deciphered
-#  Paths:
-#    - rels/d_a_npc_tc.rel@6207
-#Tingle Island - Tingle - Triforce Chart 8 Deciphered:
-#  Need: 
-#  Original item: Triforce Chart 8 got deciphered
-#  Paths:
-#    - rels/d_a_npc_tc.rel@620F
