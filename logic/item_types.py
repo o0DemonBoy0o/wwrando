@@ -1,6 +1,7 @@
 
 PROGRESS_ITEMS = [
   "Tingle Tuner",
+  "Telescope",
   "Wind Waker",
   "Spoils Bag",
   "Grappling Hook",
@@ -15,6 +16,14 @@ PROGRESS_ITEMS = [
   "Deku Leaf",
   "Hero's Shield",
   "Mirror Shield",
+  "Magic Armor",
+  "Hero's Charm",
+  
+  "Hurricane Spin",
+  "Progressive Bomb Bag",
+  "Progressive Bomb Bag",
+  "Progressive Quiver",
+  "Progressive Quiver",
   
   "Triforce Shard 1",
   "Triforce Shard 2",
@@ -59,22 +68,11 @@ PROGRESS_ITEMS = [
   ["Progressive Picto Box"]*2 + \
   ["Empty Bottle"]*4
 
-NONPROGRESS_ITEMS = [
-  "Telescope",
-  "Magic Armor",
-  "Hero's Charm",
-  
+NONPROGRESS_ITEMS = [ 
   # Complimentary ID is not placed in the randomizer to avoid the player getting an overly full delivery bag.
   # If you got a progress item for your delivery bag when the bag was already full, the new item would simply never enter your inventory.
   #"Complimentary ID",
   "Fill-Up Coupon",
-  
-  "Hurricane Spin",
-  
-  "Progressive Bomb Bag",
-  "Progressive Bomb Bag",
-  "Progressive Quiver",
-  "Progressive Quiver",
   
   "Submarine Chart",
   "Beedle's Chart",
@@ -95,25 +93,25 @@ NONPROGRESS_ITEMS = [
   ["Heart Container"]*6
 
 CONSUMABLE_ITEMS = \
-   1 * ["Green Rupee"] + \
-   2 * ["Blue Rupee"] + \
-   4 * ["Yellow Rupee"] + \
-  10 * ["Red Rupee"] + \
-  22 * ["Purple Rupee"] + \
-  23 * ["Orange Rupee"] + \
+   5 * ["Green Rupee"] + \
+   5 * ["Blue Rupee"] + \
+  10 * ["Yellow Rupee"] + \
+  15 * ["Red Rupee"] + \
+  20 * ["Purple Rupee"] + \
+  25 * ["Orange Rupee"] + \
   15 * ["Silver Rupee"] + \
-   1 * ["Rainbow Rupee"] + \
+   2 * ["Rainbow Rupee"] + \
   \
-   9 * ["Joy Pendant"] + \
-   9 * ["Skull Necklace"] + \
+  10 * ["Joy Pendant"] + \
+  10 * ["Skull Necklace"] + \
    1 * ["Boko Baba Seed"] + \
-   9 * ["Golden Feather"] + \
-   3 * ["Knight's Crest"] + \
+  10 * ["Golden Feather"] + \
+   5 * ["Knight's Crest"] + \
    1 * ["Red Chu Jelly"] + \
    1 * ["Green Chu Jelly"] + \
   \
-   1 * ["All-Purpose Bait"] + \
-   4 * ["Hyoi Pear"]
+   2 * ["All-Purpose Bait"] + \
+   3 * ["Hyoi Pear"]
 # (Note: Blue Chu Jelly is not included as it is specially coded and would cause issues if randomly placed as a field item.)
 
 DUNGEON_PROGRESS_ITEMS = \

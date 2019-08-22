@@ -1,3 +1,12 @@
+Can Get DRC Tingle Chest:
+    DRC Small Key x1
+    & ((DRC Small Key x4 & Can Cut Down Hanging DRC Platform) | Deku Leaf | Ice Arrows)
+    & Grappling Hook
+    & Tingle Tuner Bombs
+Can Get to DRC Boss Early:
+  DRC Small Key x1
+  & Grappling Hook
+  & Hero's Bow
 Can Play Wind's Requiem:
   Wind Waker & Wind's Requiem
 Can Play Ballad of Gales:
@@ -203,6 +212,7 @@ Can Access Star Island Secret Cave:
 
 Can Get Past Forsaken Fortress Gate:
   Bombs
+  | Nothing
   # Note: It's also possible to blow up the door without bombs by using the mounted cannons, but this is not required by the logic.
   # Note: It's also possible to get past the gate by going all the way down to Ganon's Tower, and then activating the warp up to Forsaken Fortress. But this is not currently required by the logic.
 Can Get Inside Forsaken Fortress:
@@ -557,6 +567,7 @@ Can Defeat Stalfos:
 Can Defeat Floormasters:
   Hero's Sword
   | Hero's Bow
+  | (Hero's Bow & Bombs)
   # Skull Hammer also works, but because of the wonky hitbox on floormasters there's a very high chance you'll miss and get taken back to the dungeon entrance, so it's not in the logic.
   # Bombs also work, but it's very annoying to hit them since they throw the bombs back at you. They also go back in the ground becoming invulnerable if you get too far away.
   # Hero's Bow would only be an issue if you run out of arrows when you need to kill a ton of Floormasters - aka the Earth Temple foggy Floormaster room. But thankfully that room has tons of skulls that drop arrow refills.
