@@ -27,7 +27,7 @@ Deku Leaf:
 Hero's Shield:
   a basic defensive item
 Mirror Shield:
-  a defensive item that reflects light
+  a reflective defensive item
 Triforce Shard 1:
   a piece of the power of the gods
 Triforce Shard 2:
